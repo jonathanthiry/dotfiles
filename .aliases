@@ -45,6 +45,7 @@ alias flush="dscacheutil -flushcache"
 
 # git
 alias gs='git status'
+alias gss='git status -s'
 alias ga='git add'
 alias gc='git commit'
 alias gd='git diff'
@@ -54,7 +55,7 @@ alias go='git checkout'
 alias gpull='git pull origin'
 alias gpush='git push origin'
 alias gb='git branch'
-alias gl='git log'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # npm
 alias npmp="sudo npm publish"
