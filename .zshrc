@@ -27,8 +27,8 @@ export LC_CTYPE="en_US.UTF-8"
 
 source /Users/jonathan/.manter.sh
 
-export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
+#export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
+#export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
 
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
