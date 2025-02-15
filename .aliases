@@ -78,3 +78,4 @@ alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/
 alias hosts="sudo nvim /etc/hosts"
 alias brewfile="nvim ~/Documents/dotfiles/Brewfile"
 
+alias icos="just"

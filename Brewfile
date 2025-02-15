@@ -1,27 +1,22 @@
 tap "clojure/tools"
-tap "jesseduffield/lazygit"
 tap "homebrew/bundle"
 tap "homebrew/services"
-
-brew "python@3.12"
 brew "ansible"
-brew "jpeg-xl"
+brew "zstd"
+brew "aom"
 brew "apr-util"
 brew "bash"
+brew "libssh"
 brew "libssh2"
 brew "libgit2"
 brew "bat"
 brew "berkeley-db", link: true
+brew "python@3.12"
 brew "borgbackup"
 brew "fontconfig"
 brew "cairo"
 brew "harfbuzz"
 brew "clojure"
-brew "libevent"
-brew "p11-kit"
-brew "unbound"
-brew "gnutls"
-brew "qemu"
 brew "lima"
 brew "colima"
 brew "rtmpdump"
@@ -29,7 +24,6 @@ brew "curl"
 brew "freetds"
 brew "libavif"
 brew "gd"
-brew "php"
 brew "composer"
 brew "coreutils"
 brew "diff-so-fancy"
@@ -37,7 +31,10 @@ brew "erlang"
 brew "elixir"
 brew "eza"
 brew "fd"
-brew "lazygit"
+brew "libevent"
+brew "p11-kit"
+brew "unbound"
+brew "gnutls"
 brew "libass"
 brew "libbluray"
 brew "pango"
@@ -48,6 +45,7 @@ brew "ffmpegthumbnailer"
 brew "fzf"
 brew "gh"
 brew "ghostscript"
+brew "pkgconf"
 brew "gobject-introspection"
 brew "groonga"
 brew "hatch"
@@ -56,16 +54,17 @@ brew "hurl"
 brew "shared-mime-info"
 brew "libheif"
 brew "imagemagick"
+brew "jpeg-xl"
 brew "jq"
 brew "just"
 brew "lazydocker"
-brew "llvm"
+brew "lazygit"
 brew "macos-trash"
 brew "mas"
 brew "maven"
 brew "mkcert"
 brew "mosh"
-brew "mysql"
+brew "mysql", restart_service: true
 brew "neovim"
 brew "nginx", restart_service: true
 brew "node"
@@ -79,12 +78,12 @@ brew "perl"
 brew "php@8.1"
 brew "pipenv"
 brew "pipx"
-brew "pkgconf"
 brew "pnpm"
 brew "powerlevel10k"
 brew "pyenv"
 brew "python-argcomplete"
 brew "python@3.11"
+brew "qemu"
 brew "ripgrep"
 brew "rust"
 brew "sbt"
@@ -101,11 +100,10 @@ brew "wp-cli"
 brew "yazi"
 brew "yt-dlp"
 brew "zoxide"
-
 cask "adobe-digital-editions"
-cask "alacritty"
 cask "alfred"
 cask "amie"
+cask "android-studio"
 cask "arc"
 cask "asana"
 cask "balenaetcher"
@@ -120,12 +118,12 @@ cask "daisydisk"
 cask "db-browser-for-sqlite"
 cask "diffusionbee"
 cask "docker"
-cask "fig"
 cask "firefox"
 cask "firefox@developer-edition"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "freecad"
+cask "ghostty"
 cask "handbrake"
 cask "hiddenbar"
 cask "hyper"
@@ -135,6 +133,7 @@ cask "jordanbaird-ice"
 cask "karabiner-elements"
 cask "kdenlive"
 cask "keyboardcleantool"
+cask "linearmouse"
 cask "logi-options+"
 cask "logitune"
 cask "logseq"
@@ -155,7 +154,6 @@ cask "solvespace"
 cask "spotify"
 cask "sqlpro-for-postgres"
 cask "steam"
-cask "superproductivity"
 cask "tabby"
 cask "todoist"
 cask "transmission"
@@ -165,7 +163,6 @@ cask "xcodes"
 cask "zed"
 cask "zen-browser"
 cask "zoom"
-
 mas "Actions", id: 1586435171
 mas "AdBlock Pro", id: 1018301773
 mas "Agenda", id: 1287445660
@@ -177,9 +174,12 @@ mas "Dark Reader for Safari", id: 1438243180
 mas "Developer", id: 640199958
 mas "Eagle for Safari", id: 1526651672
 mas "Exporter", id: 1099120373
+mas "Gifski", id: 1351639930
+mas "GoodLinks", id: 1474335294
 mas "HotKey", id: 975890633
 mas "Hush", id: 1544743900
 mas "iA Writer", id: 775737590
+mas "Infuse", id: 1136220934
 mas "Keynote", id: 409183694
 mas "Negative", id: 1378123825
 mas "NotePlan", id: 1505432629
@@ -192,7 +192,6 @@ mas "Reeder", id: 1529448980
 mas "Save to Reader", id: 1640236961
 mas "Screen Recorder by Omi", id: 1592987853
 mas "Silicio", id: 933627574
-mas "Soulver 2", id: 413965349
 mas "Soulver 3", id: 1508732804
 mas "StopTheMadness Pro", id: 6471380298
 mas "Structured", id: 1499198946
@@ -201,5 +200,6 @@ mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Vimari", id: 1480933944
 mas "Vinegar", id: 1591303229
+mas "WebP Converter", id: 1522368690
 mas "Windows App", id: 1295203466
 mas "xScope", id: 889428659

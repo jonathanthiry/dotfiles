@@ -27,8 +27,8 @@ export LC_CTYPE="en_US.UTF-8"
 
 source /Users/jonathan/.manter.sh
 
-#export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
-#export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.3/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.3/sbin:$PATH"
 
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
@@ -38,6 +38,8 @@ export PATH="/opt/homebrew/opt/scala@3.3/bin:$PATH"
 
 export STARSHIP_LOG="error"
 source <(fzf --zsh)
+
+export EDITOR="nvim"
 
 # Created by `pipx` on 2024-10-01 07:38:04
 export PATH="$PATH:/Users/jonathan/.local/bin"
@@ -56,3 +58,12 @@ function y() {
 }
 
 eval "$(zoxide init zsh)"
+export PATH="/opt/homebrew/opt/ansible@10/bin:$PATH"
+
+# bun completions
+[ -s "/Users/jonathan/.bun/_bun" ] && source "/Users/jonathan/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="/opt/homebrew/opt/gradle@7/bin:$PATH"
