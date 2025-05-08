@@ -57,7 +57,7 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 export PATH="/opt/homebrew/opt/ansible@10/bin:$PATH"
 
 # bun completions
