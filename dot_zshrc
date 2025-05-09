@@ -9,10 +9,10 @@ fi
 
 autoload -U compinit; compinit
 
-if [ -f ~/Documents/dotfiles/.aliases ]; then
-    source ~/Documents/dotfiles/.aliases
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
 else
-    print "404: ~/Document/dotfiles/.aliases not found."
+    print "404: ~/.aliases not found."
 fi
 
 export NVM_DIR="$HOME/.nvm"
