@@ -10,7 +10,6 @@ brew "aider"
 brew "libssh"
 brew "ansible", link: false
 brew "ansible@12", link: true
-brew "aom"
 brew "apr-util"
 brew "asciinema"
 brew "atuin"
@@ -146,15 +145,11 @@ brew "netbirdio/tap/netbird", trusted: true
 brew "virtuslab/scala-cli/scala-cli", trusted: true
 cask "adobe-digital-editions"
 cask "alfred"
-cask "amie"
-cask "android-studio"
 cask "appflowy"
-cask "arc"
 cask "asana"
 cask "balenaetcher"
 cask "beekeeper-studio"
 cask "bettershot"
-cask "blender"
 cask "brave-browser"
 cask "calibre"
 cask "chatgpt"
@@ -163,14 +158,11 @@ cask "claude"
 cask "claude-code"
 cask "coconutbattery"
 cask "codex"
-cask "codex-app"
 cask "daisydisk"
 cask "db-browser-for-sqlite"
 cask "diffusionbee"
 cask "docker-desktop"
 cask "fastmail"
-cask "firefox"
-cask "firefox@developer-edition"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
@@ -196,10 +188,8 @@ cask "microsoft-outlook"
 cask "microsoft-teams"
 cask "monitorcontrol"
 cask "moom"
-cask "notion"
 cask "orbstack"
 cask "pgadmin4"
-cask "protege"
 cask "proxyman"
 cask "qobuz"
 cask "raycast"
@@ -225,13 +215,11 @@ cask "zoom"
 mas "Actions", id: 1586435171
 mas "AdBlock Pro", id: 1018301773
 mas "Agenda", id: 1287445660
-mas "Amazing AI", id: 1660147028
 mas "Amphetamine", id: 937984704
 mas "CapCut", id: 1500855883
 mas "Craft", id: 1487937127
 mas "Dark Reader for Safari", id: 1438243180
 mas "Darkroom", id: 953286746
-mas "DaVinci Resolve", id: 571213070
 mas "Developer", id: 640199958
 mas "Eagle for Safari", id: 1526651672
 mas "Exporter", id: 1099120373
@@ -272,3 +260,14 @@ mas "xScope", id: 889428659
 uv "ruff"
 npm "@earendil-works/pi-coding-agent"
 npm "corepack"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
+# Tiling window manager
+cask "omniwm"
+# Application launcher and command palette
+cask "vicinae"
+# Tiny, fully native launcher, hotkeys, and clipboard history
+cask "tinycast"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+tap "abue-ammar/tinycast"
