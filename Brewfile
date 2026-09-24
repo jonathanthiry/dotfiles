@@ -77,7 +77,6 @@ brew "libheif"
 brew "imagemagick"
 brew "jq"
 brew "just"
-brew "languagetool", restart_service: :changed
 brew "lazydocker"
 brew "lazygit"
 brew "lazyssh"
@@ -267,7 +266,7 @@ cask "omniwm"
 # Application launcher and command palette
 cask "vicinae"
 # Tiny, fully native launcher, hotkeys, and clipboard history
-cask "tinycast"
+cask "tinycast", trusted: true
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
-tap "abue-ammar/tinycast"
+tap "abue-ammar/tinycast", trusted: true
