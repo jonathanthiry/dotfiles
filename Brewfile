@@ -2,11 +2,9 @@ tap "abue-ammar/tinycast", trusted: true
 tap "anomalyco/tap", trusted: true
 tap "darrylmorley/whatcable"
 tap "jnsahaj/lumen"
-tap "linodians/tap", trusted: { casks: ["wtfutil"] }
 tap "modem-dev/tap"
 tap "netbirdio/tap"
 tap "virtuslab/scala-cli", "https://github.com/Virtuslab/homebrew-scala-cli", trusted: { formulae: ["scala-cli"] }
-brew "python@3.12"
 brew "ansible"
 brew "ansible@12"
 brew "atuin"
@@ -83,13 +81,11 @@ brew "openjdk@21"
 brew "openvino"
 brew "pandoc"
 brew "perl"
-brew "php@8.3"
 brew "pipenv"
 brew "pipx"
 brew "pnpm"
 brew "powerlevel10k"
 brew "pyenv"
-brew "python@3.11"
 brew "qemu"
 brew "rtmpdump"
 brew "rust"
@@ -122,7 +118,6 @@ brew "modem-dev/tap/hunk", trusted: true
 brew "netbirdio/tap/netbird", trusted: true
 cask "adobe-digital-editions"
 cask "alfred"
-cask "appflowy"
 cask "asana"
 cask "balenaetcher"
 cask "beekeeper-studio"
@@ -148,7 +143,6 @@ cask "handbrake-app"
 cask "hazeover"
 cask "helium-browser"
 cask "imageoptim"
-cask "jan"
 cask "karabiner-elements"
 cask "keyboardcleantool"
 cask "linearmouse"
@@ -215,8 +209,6 @@ mas "Save to Reader", id: 1640236961
 mas "Screen Recorder by Omi", id: 1592987853
 mas "Silicio", id: 933627574
 mas "Soulver", id: 1508732804
-mas "Soulver 2", id: 413965349
-mas "StopTheMadness", id: 1376402589
 mas "StopTheMadness Pro", id: 6471380298
 mas "Structured", id: 1499198946
 mas "Tadama", id: 1415817706
